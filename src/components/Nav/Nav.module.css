@@ -1,0 +1,32 @@
+.nav {
+  font-family: "Inter", sans-serif;
+  display: flex;
+  align-items: center;
+  padding: 0 25rem;
+}
+
+.navList {
+  margin-left: auto;
+  display: flex;
+}
+
+.navItem {
+  list-style-type: none;
+  margin-left: 1.5rem;
+}
+
+.navLink,
+.navLogo {
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.navLink {
+  font-weight: 500;
+}
+
+.navLogo {
+  align-self: center;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
