@@ -1,0 +1,39 @@
+.footer {
+  background-color: var(--grey-color-xlight);
+  padding-top: 4rem;
+  padding-bottom: 7rem;
+  position: relative;
+}
+
+.footerInner {
+  margin: 0 25rem;
+}
+
+.footerHeading {
+  font-size: 4rem;
+  margin-bottom: 3rem;
+}
+
+a {
+  display: block;
+  width: fit-content;
+  border-bottom: 1px solid transparent;
+  cursor: pointer;
+}
+
+a:hover {
+  border-bottom: 1px solid var(--grey-color);
+}
+
+a,
+p {
+  margin-bottom: 1rem;
+}
+
+.footerCopyright {
+  color: var(--grey-color-light);
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
