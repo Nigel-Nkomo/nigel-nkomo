@@ -1,5 +1,13 @@
+:root {
+  --main-color: rgb(167, 167, 255);
+  --grey-color: rgb(53, 53, 53);
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  text-decoration: none;
+  color: var(--grey-color);
 }
