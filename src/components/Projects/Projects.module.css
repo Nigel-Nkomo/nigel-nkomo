@@ -1,6 +1,7 @@
 .projects {
   margin: 0 auto;
-  margin-top: 10rem;
+  margin-top: 4rem;
+  padding-top: 6rem;
   margin-bottom: 10rem;
   max-width: 1080px;
   display: grid;

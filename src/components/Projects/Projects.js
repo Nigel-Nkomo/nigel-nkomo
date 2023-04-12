@@ -4,7 +4,7 @@ import workit from "../Images/workit.png";
 
 export default function Projects() {
   return (
-    <section className={styles.projects}>
+    <section className={styles.projects} id="projects">
       <Project imgUrl={workit} />
       <Project />
     </section>
