@@ -1,6 +1,27 @@
 .projects {
-  margin: 10rem 25rem;
+  margin: 0 auto;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+  max-width: 1080px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   column-gap: 3rem;
+}
+
+@media (max-width: 1120px) {
+  .projects {
+    max-width: 1000px;
+  }
+}
+
+@media (max-width: 1036px) {
+  .projects {
+    max-width: 95%;
+  }
+}
+
+@media (max-width: 354px) {
+  .projects {
+    display: block;
+  }
 }

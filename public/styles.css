@@ -13,3 +13,21 @@
   text-decoration: none;
   color: var(--grey-color);
 }
+
+@media (max-width: 1120px) {
+  html {
+    font-size: 90%;
+  }
+}
+
+@media (max-width: 1036px) {
+  html {
+    font-size: 80%;
+  }
+}
+
+@media (max-width: 626px) {
+  html {
+    font-size: 60%;
+  }
+}

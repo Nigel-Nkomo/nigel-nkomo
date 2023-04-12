@@ -7,6 +7,37 @@
   background-color: var(--main-color);
 }
 
+@media (max-width: 1036px) {
+  .project {
+    width: 100%;
+  }
+}
+
+@media (max-width: 470px) {
+  .project {
+    position: relative;
+    padding: 2rem;
+    height: 25rem;
+    overflow: hidden;
+  }
+
+  .projectImage {
+    position: absolute;
+    left: 7rem;
+    box-shadow: 0 0 50px 1px rgba(0, 0, 0, 0.3);
+  }
+}
+
+@media (max-width: 354px) {
+  .project {
+    padding: 5rem;
+  }
+  .projectImage {
+    width: 20rem;
+    height: 100%;
+  }
+}
+
 .projectLink {
   position: absolute;
   top: 1rem;
@@ -37,7 +68,7 @@
 }
 
 .projectImage {
-  width: 23rem;
+  width: 100%;
   transition: all 0.3s;
   border-radius: 1rem;
 }

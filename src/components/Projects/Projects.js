@@ -6,6 +6,7 @@ export default function Projects() {
   return (
     <section className={styles.projects}>
       <Project imgUrl={workit} />
+      <Project />
     </section>
   );
 }

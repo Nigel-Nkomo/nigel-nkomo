@@ -6,7 +6,20 @@
 }
 
 .footerInner {
-  margin: 0 25rem;
+  margin: 0 auto;
+  max-width: 1080px;
+}
+
+@media (max-width: 1120px) {
+  .footerInner {
+    max-width: 1000px;
+  }
+}
+
+@media (max-width: 1036px) {
+  .footerInner {
+    max-width: 95%;
+  }
 }
 
 .footerHeading {
