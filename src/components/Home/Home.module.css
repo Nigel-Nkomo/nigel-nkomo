@@ -1,7 +1,8 @@
 .home {
   font-family: "Inter", sans-serif;
   margin: 0 auto;
-  margin-top: 10rem;
+  margin-top: 5rem;
+  padding-top: 5rem;
   max-width: 1080px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
