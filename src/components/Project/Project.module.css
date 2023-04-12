@@ -16,7 +16,7 @@
 @media (max-width: 470px) {
   .project {
     position: relative;
-    padding: 2rem;
+    padding: 5rem;
     height: 25rem;
     overflow: hidden;
   }
